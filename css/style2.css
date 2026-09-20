@@ -1,0 +1,133 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h3{
+    color: #b92b27;
+}
+
+#login{
+    color: white;
+}
+
+#signup{
+    background-color: green;
+}
+
+.upvote {
+background-color: green;
+color: blueviolet;
+}
+
+
+/* p a{
+    background-color: red;
+} */
+
+
+
+
+
+/* descendant selector */
+.post a{
+    background-color: blue;
+}
+
+
+
+p+ h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: greenyellow;
+}
+
+nav ul li a {
+    color: chartreuse;
+}
+
+
+/* child combinator */
+div > input{
+    background-color: burlywood;
+}
+
+
+/* attribute selector */
+input[type="text"]{
+    color: blueviolet;
+}
+
+input[type="password"]{
+    color: crimson;
+}
+
+input[type]{
+    background-color: aquamarine;
+}
+
+/* pract q */
+/* #myId p {
+    color: green;
+} */
+
+div[id="myId"] p{
+    color: pink;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+
+input[type="radio"]:checked+ label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2){
+    background-color: blue;
+}
+
+/* psedo element */
+h1::first-letter{
+    color: chartreuse;
+}
+
+p::first-line{
+    color: green;
+}
+
+p::selection{
+    color: yellow;
+}
+
+
+h3{
+    background-color: blueviolet;
+}
+
+h3{
+    background-color: cyan;
+}
+
+/* selector specificity */
+/* 
+id > class ? elelemt */
+/* more selector > less selector  */
+
+/* if specificty same , than we have to see cascading(mtlb jo last mai element hua h uski prioty phle hogi) */
+
+/* note- inline specifity ki highest priorty rhti hai (we dont use it ,not a good practise)  */
+
+
+h3{
+    background-color: black !important;
+}

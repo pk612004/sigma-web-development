@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 5px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+#none{
+display: none;
+}
+/* jab bhi koi item ya object ko gayab krna hota h tab hum display none kr dete hai */

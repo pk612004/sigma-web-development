@@ -1,0 +1,21 @@
+/* h2{
+    display: inline;
+    background-color: brown;
+}
+
+span{
+    display: block;
+    background-color: aqua;
+} */
+
+
+span{
+    /* background-color: aqua; */
+    border: 2px solid black;
+    height: 200px;
+    width: 100px;
+    padding: 50px;
+    /* padding sirf left aur right mai apply hogi, top aur bottom pr nhi ,same goes for margin also */
+    margin: 100px;
+
+}
