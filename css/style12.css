@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    
+    margin: 10px auto;
+    background-image: url("prakash.png");
+    background-size: cover;
+}
