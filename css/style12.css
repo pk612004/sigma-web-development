@@ -5,5 +5,5 @@ div{
     
     margin: 10px auto;
     background-image: url("prakash.png");
-    background-size: cover;
+    background-size: contain;
 }
